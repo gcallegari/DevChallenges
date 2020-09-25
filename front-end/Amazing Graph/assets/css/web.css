@@ -1,0 +1,33 @@
+@media screen and (max-width: 900px){
+    .bg-home{
+        right: 1%;
+        height: 100%;
+    }
+    main{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .bt_menu{
+        display: block;
+    }
+
+    .menu ul li{
+        width: 100%;
+        float: none;
+        background-color: #fff;
+        border-bottom: #766F68 solid 1px;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        right: 0;
+        width: 100%;
+        margin-top: -100%;
+        transition: .4s;
+        z-index: -1;
+    }
+    #bt_menu_ch:checked ~ .menu{
+        margin-top: 0;
+        z-index: 1;
+    }
+}

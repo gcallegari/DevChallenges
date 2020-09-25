@@ -1,0 +1,106 @@
+@font-face{
+    font-family: 'Roboto';
+    src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu ul{
+    list-style: none;
+    position: relative;
+}
+.menu ul li{
+    float: left;
+    width: 90px;    
+}
+.menu a{
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #766F68;
+}
+.menu ul li a:hover{
+    color: #D2872C;
+    transition: .30s;
+    border-bottom: solid 1px #D2872C;
+}
+
+.menu-topo{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5em 2.5em;
+}
+
+.text-logo{
+    color: #D2872C;
+    font-size: 1.3em;
+}
+
+.bt_menu{
+    display: none;
+    cursor: pointer;
+}
+
+#bt_menu_ch{
+    display: none;
+}
+
+.menu-tr{
+    width: 30px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #333;
+    margin: 2px 0px;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 70px;
+}
+
+.bg-home{
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    width: 65%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: -1;
+}
+
+.title{
+    color: #766F68;
+    font-size: 3.2em; 
+    font-weight: bold;
+    display: block;
+    width: 400px;
+}
+.subtitle{
+    color: #766F68;
+    font-size: 1.2em; 
+    padding-top: 30px;
+    display: block;
+    width: 300px;
+}
+
+.bt_start{
+    width: 200px;
+    height: 55px;
+    background-color: #D2872C;
+    color: #fff;
+    border: transparent;
+    border-radius: 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 45px;
+    cursor: pointer;
+}
